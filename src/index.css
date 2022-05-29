@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  display: none;
+}
+.frame {
+  -webkit-app-region: drag;
+}
+.frame-icon {
+  -webkit-app-region: no-drag;
+}
